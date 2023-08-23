@@ -44,10 +44,7 @@ namespace Hospitalmngmnt
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button4
@@ -98,7 +95,7 @@ namespace Hospitalmngmnt
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(655, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(680, 150);
             this.dataGridView1.TabIndex = 58;
             // 
             // Column2
@@ -190,31 +187,11 @@ namespace Hospitalmngmnt
             this.textBox1.Size = new System.Drawing.Size(203, 30);
             this.textBox1.TabIndex = 51;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(655, 39);
-            this.panel1.TabIndex = 63;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Wide Latin", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(173, 9);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(325, 24);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Appointment Here";
-            // 
             // apointments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 450);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(680, 450);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -230,8 +207,6 @@ namespace Hospitalmngmnt
             this.Text = "apointments";
             this.Load += new System.EventHandler(this.apointments_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -254,7 +229,5 @@ namespace Hospitalmngmnt
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label7;
     }
 }

@@ -66,9 +66,12 @@ namespace Hospitalmngmnt
 
         private void button2_Click(object sender, EventArgs e)
         {
-            register scndfrm = new register();
+            //register scndfrm = new register();
+            //this.Hide();
+            //scndfrm.ShowDialog();
+            dashboard dsbrd = new dashboard();
             this.Hide();
-            scndfrm.ShowDialog();
+            dsbrd.ShowDialog();
         }
     }
 }

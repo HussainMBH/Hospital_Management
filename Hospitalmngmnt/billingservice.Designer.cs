@@ -47,11 +47,8 @@ namespace Hospitalmngmnt
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button3
@@ -183,7 +180,7 @@ namespace Hospitalmngmnt
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(507, 251);
+            this.textBox4.Location = new System.Drawing.Point(486, 253);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(203, 30);
             this.textBox4.TabIndex = 56;
@@ -216,25 +213,6 @@ namespace Hospitalmngmnt
             this.textBox2.Size = new System.Drawing.Size(203, 30);
             this.textBox2.TabIndex = 53;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Location = new System.Drawing.Point(1, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(729, 39);
-            this.panel1.TabIndex = 51;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Wide Latin", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(249, 9);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(170, 24);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Pay Here";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -258,7 +236,7 @@ namespace Hospitalmngmnt
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(730, 653);
+            this.ClientSize = new System.Drawing.Size(705, 653);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label10);
@@ -277,7 +255,6 @@ namespace Hospitalmngmnt
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -285,8 +262,6 @@ namespace Hospitalmngmnt
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "billingservice";
             this.Load += new System.EventHandler(this.billingservice_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -312,8 +287,6 @@ namespace Hospitalmngmnt
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
     }
