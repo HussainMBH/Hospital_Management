@@ -91,7 +91,7 @@ namespace Hospitalmngmnt
 
         private void button3_Click(object sender, EventArgs e)
         {
-            String fname, lname, gender, location, ptype, pid;
+            String fname;
             String querry = "DELETE FROM patientinfo WHERE fname = '" + textBox1.Text + "' ";
             SqlDataAdapter sda = new SqlDataAdapter(querry, conn);
 
@@ -100,6 +100,16 @@ namespace Hospitalmngmnt
 
             MessageBox.Show("Patient Details Successfully Deleted");
             GetPatientinfo();
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime time_start = Convert.ToDateTime(dateTimePicker1.Value);
+            DateTime time_end = DateTime.Today;
+            TimeSpan span = time_end.Subtract(time_start);
+            var daysTotal = span.TotalDays;
+            var yearsTotal = Math.Truncate(daysTotal / 365);
+            textBox3.Text = Convert.ToString(yearsTotal);
         }
     }
 }
